@@ -1,0 +1,65 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+
+.background {
+  width: 100%;
+}
+
+.arrow {
+  height: 26rpx;
+  width: 26rpx;
+  margin-left: 13rpx;
+  margin-top: 13rpx;
+  margin-right: 20rpx;
+}
+
+.message {
+  height: 30rpx;
+  width: 30rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  margin-right: 20rpx;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.flowerWord {
+  color: pink;
+  line-height: 44rpx;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-family: Microsoft YaHei;
+}
+
+.flowerName {
+  color: powderblue;
+  font-size: 30px;
+  font-family: Microsoft YaHei;
+  margin-left: 20px;
+}
+
+.flowerDetail{
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.view-mixtureImg {
+  height: 20rpx;
+}
+
+.time {
+  font-size: 30rpx;
+  margin-left: 100rpx;
+}
+
+.timeView {
+  margin-top: 40rpx;
+  align-items: center;
+}

@@ -1,0 +1,24 @@
+<!-- 引用组件的页面模版 -->
+<view class="Main">
+  <view>
+    <view class="view-mixtureImg">
+      <image src="{{img}}" class="background"></image>
+    </view>
+    <view class="flowerDetail">
+      <view class="contact">
+        <text class="flowerName">{{flower}}</text>
+      </view>
+
+      <view class="contact">
+        <text class="flowerWord">花言葉：{{sentence}}</text>
+      </view>
+    </view>
+  </view>
+  <aqiview city="{{city}}" pm="{{pm2_5_1}}" quality="{{quality}}" pmtf="{{pm2_5_24}}" aqi="{{aqi}}" time="{{time}}">
+    <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->
+  </aqiview>
+  <view class="timeView">
+    <text class="time">获取数据时间：{{time}}</text>
+  </view>
+
+</view>

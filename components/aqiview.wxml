@@ -1,0 +1,37 @@
+<!-- 组件模板 -->
+<view class="wrapper">
+
+  <view class="view-mixtureImg">
+    <image src='/image/aqiBackgroud.jpg' class="background"></image>
+  </view>
+
+  <view class="firstRow">
+    <button class="changeCity " catchtap="onChangeCity">
+      <text class="text " >{{city}}</text>
+    </button>
+    <view class="aqiQuality">
+      <text class="qualityLevel changeCity ">{{quality}}</text>
+      <text class="text changeCity yellowBackgroud bigWord weightWord">{{aqi}}</text>
+    </view>
+  </view>
+
+  <view class="panel">
+    <view class="oneHour">
+      <text class="text littleWord"> 时长 </text>
+      <text class="text littleWord">颗粒物2.5</text>
+    </view>
+    <view class="oneHour">
+      <text class="text littleWord">1小时</text>
+      <text class="text weightWord">{{pm}}</text>
+    </view>
+    <view class="oneHour">
+      <text class="text littleWord">24小时</text>
+      <text class="text weightWord">{{pmtf}}</text>
+    </view>
+  </view>
+
+</view>
+
+<view>
+  <slot></slot>
+</view>
